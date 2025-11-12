@@ -1,73 +1,76 @@
-🧘‍♀️ Ananda Ashram Yoga & Meditation CLI
+# 🧘‍♀️ Ananda Ashram Yoga & Meditation CLI
 
-A simple command-line application that helps users register at Ananda Ashram Yoga Studio, track their yoga practice, and save their progress to a JSON file.
+A simple **command-line application** that helps users register at **Ananda Ashram Yoga Studio**, track their yoga practice, and save their progress to a JSON file.  
 
-This project demonstrates object-oriented programming (OOP) in Python with classes, inheritance, input validation, and file handling.
+This project demonstrates **object-oriented programming (OOP)** in Python with classes, inheritance, input validation, and file handling.
 
-📁 Project Structure
+---
 
-main.py – Entry point; handles user input and program flow
+## 📁 Project Structure
 
-person.py – Defines the Person class (basic user information)
+├── main.py # Entry point – handles user input and program flow
 
-yoga.py – Defines the Yoga class (extends Person with yoga-related logic)
+├── person.py # Defines the Person class (basic user information)
 
-data.json – Auto-generated file that stores saved user data
+├── yoga.py # Defines the Yoga class (extends Person with yoga-related logic)
 
-README.md – Project documentation
+├── data.json # (Auto-generated) Stores saved user data
 
-🚀 Features
+└── README.md # Project documentation
 
-✅ Collects and validates user information (name, age, gender, phone)
-✅ Offers interactive questions about yoga experience
-✅ Displays a color-coded yoga style selection menu
-✅ Records finished yoga sessions
-✅ Automatically determines your yoga level (Beginner, Intermediate, Instructor)
-✅ Saves user data to a JSON file
-✅ Includes helpful screen-clearing and colorized text for a clean CLI experience
+---
 
-🧩 How It Works
+## 🚀 Features
 
-Run the program using Python.
+✅ Collects and validates user information (name, age, gender, phone)  
+✅ Offers interactive questions about yoga experience  
+✅ Displays a color-coded yoga style selection menu  
+✅ Records finished yoga sessions  
+✅ Automatically determines your yoga level (Beginner, Intermediate, Instructor)  
+✅ Saves user data to a **JSON file**  
+✅ Includes helpful screen-clearing and colorized text for clean CLI experience  
 
-Enter your personal information (name, age, gender, phone).
+---
 
-Answer whether you have done yoga before:
+## 🧩 How It Works
 
-Yes → record previously completed yoga styles.
+1. Run the program (`python main.py`).
+2. Enter your personal information (name, age, gender, phone).
+3. Answer whether you have done yoga before:
+   - **Yes** → record previously completed yoga styles.
+   - **No** → explore new yoga styles from the menu.
+4. Your information and yoga progress are saved to `data.json`.
 
-No → explore new yoga styles from the menu.
+---
 
-Your information and yoga progress are saved to data.json.
+## 💻 Requirements
 
-💻 Requirements
-
-Python 3.8 or higher
-
-Dependency: colorama
-
+- Python 3.8 or higher  
+- Dependencies:
+  ```bash
+  pip install colorama
 ▶️ How to Run
-
 Clone this repository:
+
+bash
+Copy code
 git clone https://github.com/ReeIsLost/ananda-yoga-cli.git
 cd ananda-yoga-cli
-
 Run the program:
-python main.py
 
+bash
+Copy code
+python main.py
 Follow the on-screen prompts.
 
 🧱 Object-Oriented Design
-
 Person → Handles personal data
 
-Yoga(Person) → Inherits from Person and adds yoga features such as menus, progress tracking, and saving data
+Yoga(Person) → Inherits from Person, adds yoga features (menu, progress, saving)
 
 ⚖️ License
-
 This project is not licensed.
 All rights reserved. You may not copy, modify, or distribute this code without explicit permission from the author.
 
 💖 Author
-
-Developed by ReeIsLost
+Developed by [Reeshabh]
