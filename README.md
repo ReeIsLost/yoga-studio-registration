@@ -9,9 +9,13 @@ This project demonstrates **object-oriented programming (OOP)** in Python with c
 ## 📁 Project Structure
 
 ├── main.py # Entry point – handles user input and program flow
+
 ├── person.py # Defines the Person class (basic user information)
+
 ├── yoga.py # Defines the Yoga class (extends Person with yoga-related logic)
+
 ├── data.json # (Auto-generated) Stores saved user data
+
 └── README.md # Project documentation
 
 ---
